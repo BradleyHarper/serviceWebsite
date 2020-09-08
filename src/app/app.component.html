@@ -1,8 +1,13 @@
 <div class="title center-align">
-  <h2>Bradley's Lawn Service</h2>
+  <h2>Bradley's mobile repair</h2>
+  <div class="svg-icons">
+    <img src="../assets/images/gardening.svg" alt="Reel mower svg image">
+    <img src="../assets/images/trimmer.svg" alt="String trimmer svg image">
+    <img src="../assets/images/yard.svg" alt="Lawn mower svg image">
+    <img src="../assets/images/hedgeTrimmer.svg" alt="Hedge trimmer svg image">
+  </div>
+  <hr class="hr-break">
 </div>
-
-<hr class="hr-break">
 
 <div class="main-container center-align">
   <div class="container">
@@ -68,17 +73,25 @@
       Contact me @ ...
     </h6>
 
+    <div class="sources-button-container">
+      <a class='dropdown-trigger btn grey' href='#' data-target='dropdown1'>Sources</a>
+    </div>
+
     <div class="grass-image center-align">
       <img src="../assets/images/greyGrass.jpg" alt="Image of greyscale grass">
     </div>
 
     <footer>
-      <h6>Contact</h6>
       <fa-icon [icon]="faphone"></fa-icon>
-      <h6>Current location</h6>
       <fa-icon [icon]="faMapPin"></fa-icon>
-      <h6>Email</h6>
       <fa-icon [icon]="faEnvelope"></fa-icon>
     </footer>
   </div>
+
+  <ul id='dropdown1' class='dropdown-content'>
+    <li>
+      Icons made by <a href="https://www.flaticon.com/authors/smashicons">Smashicons & Freepik</a>
+      from <a href="https://www.flaticon.com/">www.flaticon.com</a>
+    </li>
+  </ul>
 </div>

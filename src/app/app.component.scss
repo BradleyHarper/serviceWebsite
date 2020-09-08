@@ -17,13 +17,37 @@ footer {
 .hr-break {
   height: 3px;
   background-color: black;
-  width: 200px;
+  width: 100%;
+  margin-top: 0;
 }
 
 .main-container {
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: auto;
 }
 
 .title {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.title > h2 {
+  margin-bottom: 0;
+}
+
+.svg-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sources-button-container {
+  padding: 20px;
+}
+
+.svg-icons > img {
+  height: 30px;
+  width: 30px;
 }
