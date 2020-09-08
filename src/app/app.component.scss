@@ -7,8 +7,8 @@ footer {
 
 .container {
   max-width: 1000px;
-  //background-image: url("../assets/images/greyGrass.jpg");
 }
+
 .grass-image > img {
   width: 100%;
   opacity: 0.2;
@@ -33,14 +33,11 @@ footer {
   margin: 0 auto;
 }
 
-.title > h2 {
-  margin-bottom: 0;
-}
-
 .svg-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: -3px;
 }
 
 .sources-button-container {
@@ -50,4 +47,8 @@ footer {
 .svg-icons > img {
   height: 30px;
   width: 30px;
+}
+
+.ng-fa-icon {
+  font-size: 30px;
 }
