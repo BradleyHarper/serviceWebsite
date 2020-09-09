@@ -7,13 +7,14 @@ footer{
 }
 
 small {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #description-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  word-break: break-word;
 }
 
 .about-descriptions {
@@ -21,18 +22,34 @@ small {
   margin: 50px 0;
 }
 
-.about-descriptions:nth-of-type(3n+1) {
-  position: relative;
-  left: 50px;
+@media screen and (min-width: 700px) {
+  .about-descriptions:nth-of-type(3n+2) {
+    position: relative;
+    left: 50px;
+  }
+
+  .about-descriptions:nth-of-type(3n+3) {
+    position: relative;
+    right: 100px;
+  }
 }
 
-.about-descriptions:nth-of-type(3n+3) {
-  position: relative;
-  right: 100px;
+@media screen and (max-width: 700px) {
+  footer {
+    justify-content: flex-start;
+  }
+
+  .icons {
+    flex-direction: column !important;
+  }
 }
 
 .about-descriptions > h4 {
   font-weight: 100;
+}
+
+.about-descriptions > h6 {
+  font-weight: 300;
 }
 
 .container {
@@ -42,8 +59,6 @@ small {
 .delivery-map {
   width: 100%;
   height: 400px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
   margin: 20px 0;
 }
 
@@ -79,7 +94,7 @@ small {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .main-container {
@@ -106,7 +121,7 @@ small {
 }
 
 .sources > h6 {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .sources-button-container {

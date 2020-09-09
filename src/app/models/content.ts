@@ -26,18 +26,6 @@ export class Content {
     {
       title: 'testing...',
       content: 'asldfa;sdlfkjas;ldfkjas;ldkfja;sldkfajsdkfjal;skdjfljasd;lfkjas;ldfkja;sldfkja;slkdfj;alsdkfja'
-    },
-    {
-      title: 'testing...',
-      content: 'asldfa;sdlfkjas;ldfkjas;ldkfja;sldkfajsdkfjal;skdjfljasd;lfkjas;ldfkja;sldfkja;slkdfj;alsdkfja'
-    },
-    {
-      title: 'testing...',
-      content: 'asldfa;sdlfkjas;ldfkjas;ldkfja;sldkfajsdkfjal;skdjfljasd;lfkjas;ldfkja;sldfkja;slkdfj;alsdkfja'
-    },
-    {
-      title: 'testing...',
-      content: 'asldfa;sdlfkjas;ldfkjas;ldkfja;sldkfajsdkfjal;skdjfljasd;lfkjas;ldfkja;sldfkja;slkdfj;alsdkfja'
-    },
+    }
   ];
 }
