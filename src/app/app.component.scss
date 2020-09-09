@@ -6,6 +6,35 @@ footer{
   padding-bottom: 20px;
 }
 
+small {
+  font-weight: 100;
+}
+
+#description-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-descriptions {
+  max-width: 500px;
+  margin: 50px 0;
+}
+
+.about-descriptions:nth-of-type(3n+1) {
+  position: relative;
+  left: 50px;
+}
+
+.about-descriptions:nth-of-type(3n+3) {
+  position: relative;
+  right: 100px;
+}
+
+.about-descriptions > h4 {
+  font-weight: 100;
+}
+
 .container {
   max-width: 1000px;
 }
@@ -50,6 +79,7 @@ footer{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  font-weight: 100;
 }
 
 .main-container {
@@ -65,8 +95,7 @@ footer{
   display: flex;
   flex-direction: column;
   max-width: 650px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
 }
 
 .svg-icons {
@@ -74,6 +103,10 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: -3px;
+}
+
+.sources > h6 {
+  font-weight: 100;
 }
 
 .sources-button-container {

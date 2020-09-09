@@ -16,44 +16,12 @@
       <img src="../assets/images/trailBike.svg" alt="little trail motorcycle">
     </div>
     <hr class="hr-break green darken-3">
-<!--    <div class="parallax-container">-->
-<!--      <div class="parallax"><img src="./assets/images/greyGrass.jpg"></div>-->
-<!--    </div>-->
-<!--    <div class="section white">-->
-<!--      <div class="row container">-->
-<!--        <h2 class="header">Parallax</h2>-->
-<!--        <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="parallax-container">-->
-<!--      <div class="parallax"><img src="./assets/images/greyGrass.jpg"></div>-->
-<!--    </div>-->
-    <h4>
-      About
-    </h4>
-    <h6>I've worked as a professional small engine repair man for a few years but I've been around these things all my life.
-      I always ensure the customer leaves with a piece of equipment that is fully functional. If I have any issues with the repair I make it
-      100% clear to keep the customer in the loop on what is going on. My goal is to have you fully aware of what's going on, perform a quality repair,
-      and all weeks quicker than the local shops!
-    </h6>
-    <h6>
-      Same day diagnosis
-    </h6>
-    <h4>
-      Equipment types
-    </h4>
-    <h6>
-      Tillers, snow blowers, string trimmers, push mowers, riding lawn mowers, gokarts, minibikes.
-    </h6>
-    <h6>
-      From brands ranging from toro, stihl, redmax, briggs and stratton, honda, walmart brands, and more.
-    </h6>
-    <h4>
-      Contact for quote & appointment
-    </h4>
-    <h6>
-      Contact me using email or phone provided below and we'll schedule a good time for me to help.
-    </h6>
+    <div id="description-section">
+      <div class="about-descriptions" *ngFor="let description of descriptions.data">
+        <h4>{{description.title}}</h4>
+        <h6>{{ description.content }}</h6>
+      </div>
+    </div>
     <iframe class="delivery-map" src="https://www.google.com/maps/d/embed?mid=1fJfj10-UVgfbt21ky0_88zrXQwfwO4sL"></iframe>
     <footer>
       <div class="icons">
@@ -69,6 +37,8 @@
       </div>
     </footer>
     <hr class="hr-break green darken-3">
-    <h6>Icons from Smashicons & Freepik @ <a href="https://www.flaticon.com/">Flaticon</a></h6>
+    <div class="sources">
+      <h6>Icons from Smashicons & Freepik @ <a href="https://www.flaticon.com/">Flaticon</a></h6>
+    </div>
   </div>
 </div>
