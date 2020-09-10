@@ -22,17 +22,21 @@
         <h6>{{ description.content }}</h6>
       </div>
     </div>
-    <iframe class="delivery-map" src="https://www.google.com/maps/d/embed?mid=1fJfj10-UVgfbt21ky0_88zrXQwfwO4sL" frameborder="0"></iframe>
+    <iframe [hidden]="mapVisible" class="delivery-map" src="https://www.google.com/maps/d/embed?mid=1fJfj10-UVgfbt21ky0_88zrXQwfwO4sL" frameborder="0"></iframe>
+    <hr class="hr-break green darken-3">
     <footer>
       <div class="icons">
         <div class="icon-phone">
-          <fa-icon [icon]="faphone"></fa-icon> (636)-535-3604
+          <fa-icon [icon]="faPhone"></fa-icon>
+          <a href="tel:+16365353604">+1(636)-535-3604</a>
         </div>
-        <div class="icon-location">
-          <fa-icon [icon]="faMapPin"></fa-icon> Festus, Mo
+        <div class="icon-location" (click)="openMapToggle()">
+          <fa-icon [icon]="faMapPin"></fa-icon>
+          <p>Check location</p>
         </div>
         <div class="icon-mail">
-          <fa-icon [icon]="faEnvelope"></fa-icon> bradley@harperauto.us
+          <fa-icon [icon]="faEnvelope"></fa-icon>
+          <a href="mailto: bradley@harperauto.us">bradley@harperauto.us</a>
         </div>
       </div>
     </footer>

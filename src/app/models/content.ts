@@ -3,7 +3,7 @@ export class Content {
     {
       title: 'About',
       content: 'I\'ve worked as a professional small engine repair man for a few years but I\'ve been around these things all my life.\n' +
-        '      I always ensure the customer leaves with a piece of equipment that is fully functional. If I have any issues with the repair I make it\n' +
+        '      I ensure the customer leaves with a piece of equipment that is fully functional. If I have any issues with the repair I make it\n' +
         '      100% clear to keep the customer in the loop on what is going on. My goal is to have you fully aware of what\'s going on, perform a quality repair,\n' +
         '      and all weeks quicker than the local shops! Same day diagnosis'
     },

@@ -12,17 +12,20 @@ import * as M from 'materialize-css';
 })
 export class AppComponent implements OnInit {
   descriptions = new Content();
-  faphone = faPhone;
+  faPhone = faPhone;
   faMapPin = faMapPin;
   faEnvelope = faEnvelope;
-  options = {};
+  mapVisible = true;
 
   constructor() { }
 
-  ngOnInit(): any {
-    document.addEventListener('DOMContentLoaded', () => {
-      const elems = document.querySelectorAll('.parallax');
-      const instances = M.Parallax.init(elems, this.options);
-    });
+  ngOnInit(): any { }
+
+  openMapToggle = () => {
+    this.mapVisible = !this.mapVisible;
+  }
+
+  closeMap = () => {
+    this.mapVisible = false;
   }
 }
