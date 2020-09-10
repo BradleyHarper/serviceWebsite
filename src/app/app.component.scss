@@ -1,5 +1,27 @@
 @import "node_modules/materialize-css/sass/materialize";
 
+@media screen and (min-width: 700px) {
+  .about-descriptions:nth-of-type(3n+2) {
+    position: relative;
+    left: 50px;
+  }
+
+  .about-descriptions:nth-of-type(3n+3) {
+    position: relative;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer {
+    justify-content: flex-start !important;
+  }
+
+  .icons {
+    flex-direction: column !important;
+  }
+}
+
 footer{
   display: flex;
   justify-content: center;
@@ -20,28 +42,6 @@ small {
 .about-descriptions {
   max-width: 500px;
   margin: 50px 0;
-}
-
-@media screen and (min-width: 700px) {
-  .about-descriptions:nth-of-type(3n+2) {
-    position: relative;
-    left: 50px;
-  }
-
-  .about-descriptions:nth-of-type(3n+3) {
-    position: relative;
-    right: 100px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  footer {
-    justify-content: flex-start;
-  }
-
-  .icons {
-    flex-direction: column !important;
-  }
 }
 
 .about-descriptions > h4 {
@@ -68,11 +68,10 @@ small {
 }
 
 .hr-break {
-  height: 3px;
+  height: 2px;
   background-color: black;
   width: 100%;
   margin-top: 0;
-
 }
 
 .icon-phone {
@@ -100,6 +99,7 @@ small {
 .main-container {
   height: auto;
   width: auto;
+  background-color: whitesmoke;
 }
 
 .ng-fa-icon {
@@ -111,6 +111,10 @@ small {
   flex-direction: column;
   max-width: 650px;
   margin: 0 auto 20px auto;
+}
+
+.title > h2 {
+  font-weight: 200;
 }
 
 .svg-icons {
