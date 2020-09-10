@@ -137,6 +137,16 @@ small {
   width: 30px;
 }
 
+.svg-icons > img:last-of-type {
+  position: relative;
+  top: 2px;
+}
+
+.svg-icons > img:nth-of-type(4) {
+  position: relative;
+  top: -1px;
+}
+
 .ng-fa-icon {
   font-size: 30px;
 }
