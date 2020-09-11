@@ -76,6 +76,8 @@ small {
   margin: 10px 0;
   text-decoration: none;
   display: inline-block;
+  font-family: Roboto;
+  font-weight: 300;
 }
 
 .container {
@@ -105,6 +107,10 @@ small {
   align-items: center;
 }
 
+.icon-location > p {
+  color: #039be5;
+}
+
 .icons {
   display: flex;
   justify-content: space-around;
@@ -115,10 +121,6 @@ small {
 .icons > div > p:hover, .icons > div > a:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-.icons > div > p, .icons > div > a {
-  color: black;
 }
 
 .main-container {
