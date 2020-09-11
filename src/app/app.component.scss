@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 700px) {
   footer {
-    justify-content: flex-start !important;
+    justify-content: center !important;
   }
 
   .icons {
@@ -26,6 +26,11 @@ footer{
   display: flex;
   justify-content: center;
   padding: 20px 0;
+}
+
+h6 {
+  word-spacing: 3px;
+  line-height: inherit;
 }
 
 hr:nth-of-type(2) {
@@ -48,12 +53,29 @@ small {
   margin: 50px 0;
 }
 
-.about-descriptions > h4 {
+.description-title {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.description-title > h4 {
   font-weight: 100;
+  margin-bottom: 0;
 }
 
 .about-descriptions > h6 {
   font-weight: 300;
+}
+
+.acuity-embed-button {
+  background: whitesmoke;
+  color: black;
+  padding: 8px 12px;
+  border: 3px solid #2e7d32;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .container {
@@ -125,6 +147,11 @@ small {
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: -3px;
+}
+
+.sources {
+  display: flex;
+  justify-content: center;
 }
 
 .sources > h6 {

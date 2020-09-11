@@ -4,7 +4,6 @@
   <div class="container">
     <div class="title center-align">
       <h2>H . A</h2>
-      <small>Harper Auto</small>
     </div>
     <div class="svg-icons">
       <img src="../assets/images/gardening.svg" alt="Reel mower svg image">
@@ -18,10 +17,18 @@
     <hr class="hr-break green darken-3">
     <div id="description-section">
       <div class="about-descriptions" *ngFor="let description of descriptions.data">
-        <h4>{{description.title}}</h4>
+        <div class="description-title">
+          <h4>{{description.title}}</h4>
+          <hr>
+        </div>
         <h6>{{ description.content }}</h6>
       </div>
     </div>
+    <a href="https://app.acuityscheduling.com/schedule.php?owner=20680843"
+       target="_blank" class="acuity-embed-button">
+      Schedule Appointment
+    </a>
+    <script src="https://embed.acuityscheduling.com/embed/button/20680843.js" async></script>
     <iframe [hidden]="mapVisible" class="delivery-map" src="https://www.google.com/maps/d/embed?mid=1fJfj10-UVgfbt21ky0_88zrXQwfwO4sL" frameborder="0"></iframe>
     <hr class="hr-break green darken-3">
     <footer>
@@ -42,7 +49,10 @@
     </footer>
     <hr class="hr-break green darken-3">
     <div class="sources">
-      <h6>Icons from Smashicons & Freepik @ <a href="https://www.flaticon.com/">Flaticon</a></h6>
+      <h6>Created with icons from Smashicons & Freepik @ <a href="https://www.flaticon.com/">Flaticon</a> | Angular 10 | hosted on Linode served with apache2</h6>
+<!--      <h6> | Angular 10</h6>-->
+<!--      <h6> | Apache 2</h6>-->
+<!--      <h6> | Linode hosting</h6>-->
     </div>
   </div>
 </div>
