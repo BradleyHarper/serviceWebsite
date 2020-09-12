@@ -13,19 +13,14 @@ export class Content {
       title: 'Pricing',
       content: 'On booking you\'ll see my rate per hour(s). If the job only takes an hour, you pay an hour. The final bill will have the cost of parts included.'
     },
-    // {
-    //   title: 'First clients',
-    //   content: 'Although I\'ve been repairing small engine ran equipment for years being mobile is brand new to me. ' +
-    //     'If the job takes less or more time than expected I\'ll contact you and keep you informed on the updated completion time.'
-    // },
     {
       title: 'Repair Types',
       content: 'Hard to start hand held equipment / push mower wearing out your shoulder? Self propelled drive on push mower not working anymore?' +
-        ' Give me a call.'
+        'I\'m also open to helping to help finish a project, maybe we could both learn a thing or two!'
     },
     {
       title: 'Location',
-      content: 'To make sure I\'m close enough to you, click on "check location" at the bottom of the website.' +
+      content: 'To make sure I\'m close enough to you, click on the map pin icon at the bottom of the website.' +
         ' If you\'re not too far away from my residence but out of the service zone on the map give me a call.'
     },
     {
