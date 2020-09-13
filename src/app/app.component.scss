@@ -15,7 +15,9 @@
 footer{
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  padding: 10px 0;
+  border-top: 2px solid #2E7D32;
+  border-bottom: 2px solid #2E7D32;
 }
 
 h6 {
@@ -57,7 +59,7 @@ small {
   background: whitesmoke;
   color: black;
   padding: 8px 12px;
-  border: 2px solid #1B5E20;
+  border: 2px solid #2E7D32;
   border-radius: 4px;
   margin: 10px 0;
   text-decoration: none;
@@ -87,7 +89,6 @@ small {
 
 .hr-break {
   height: 2px;
-  background-color: black;
   width: 100%;
   margin-top: 0;
 }
