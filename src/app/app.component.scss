@@ -69,7 +69,7 @@ small {
 }
 
 .acuity-embed-button:hover{
-  background-color: antiquewhite;
+  border: 2px solid black;
 }
 
 .container {
@@ -99,8 +99,8 @@ small {
   justify-content: center;
 }
 
-.icon-phone:hover, .icon-mail:hover, .icon-location:hover {
-  background-color: antiquewhite;
+.icon-phone:hover, .icon-mail:hover, .icon-location:hover, .acuity-embed-button:hover {
+  border-bottom: 2px solid black;
 }
 
 .icon-location > fa-icon {
