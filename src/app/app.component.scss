@@ -64,7 +64,7 @@ small {
   margin: 10px 0;
   text-decoration: none;
   display: inline-block;
-  font-family: Roboto;
+  font-family: Roboto, monospace;
   font-weight: 300;
 }
 
@@ -76,7 +76,12 @@ small {
   max-width: 800px;
 }
 
-.delivery-map {
+.delivery-map-invisible {
+  opacity: 0.0 !important;
+  position: fixed;
+}
+
+.delivery-map-visible {
   width: 100%;
   height: 400px;
   margin: 20px 0;

@@ -16,10 +16,10 @@
     <div id="description-section">
       <div class="about-descriptions" *ngFor="let description of descriptions.data">
         <div class="description-title">
-          <h4>{{description.title}}</h4>
+          <h4 [innerHTML]=description.title>=""></h4>
           <div style="border-bottom: 1px black solid; margin: 2px 0;"></div>
         </div>
-        <h6>{{ description.content }}</h6>
+        <h6 [innerHTML]="description.content"></h6>
       </div>
     </div>
     <a href="https://app.acuityscheduling.com/schedule.php?owner=20680843"
@@ -27,7 +27,7 @@
       Schedule Appointment
     </a>
     <script src="https://embed.acuityscheduling.com/embed/button/20680843.js" async></script>
-    <iframe [hidden]="mapVisible" class="delivery-map" src="https://www.google.com/maps/d/embed?mid=1fJfj10-UVgfbt21ky0_88zrXQwfwO4sL" frameborder="0"></iframe>
+    <iframe [ngClass]="(!mapVisible)?'delivery-map-visible' : 'delivery-map-invisible'" class="delivery-map-visible" src="https://www.google.com/maps/d/embed?mid=1fJfj10-UVgfbt21ky0_88zrXQwfwO4sL" frameborder="0"></iframe>
     <footer>
       <div class="icons">
         <div class="icon-phone">
